@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  display: block;
+}
+
+.box {
+  width: 700px;
+  height: 100px;
+  border: solid 1px #999;
+  background-color: #ddd;
+}
+
+section,
+aside {
+  float: left;
+}
+
+section.box {
+  height: 200px;
+  width: 490px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+aside.box {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+header {
+  margin: 0 auto 10px;
+}
+
+.middle {
+  margin: 0 auto;
+  width: 700px;
+}
+
+footer {
+  margin: 0 auto;
+}
