@@ -1,3 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+
 header {
 	background-color: #033048;
 	padding: 20px;
@@ -40,4 +48,104 @@ h2 {
 	font-size: 40px;
 	font-weight: 600;
 	color: black; 
+}
+
+section {
+	float: left;
+	width: 700px;
+	padding-right: 20px;
+}
+
+aside {
+	float: right;
+	width: 240px;
+}
+
+main {
+background-color: #f0efef;
+}
+
+section img {
+	width: 100%;
+}
+
+article {
+	border-bottom: 1px solid gray;
+}
+
+.read {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: right;
+	color: #033048;
+	display: block;
+}
+
+.container {
+	width: 940px;
+margin: 0 auto;
+}
+
+footer{
+	background-color: #121212;
+	text-align: center;
+}
+
+footer h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9e42e;
+	text-align: center; 
+	padding-top: 80px;
+	padding-bottom: 20px; 
+
+
+}
+
+footer p {
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+}
+
+blockquote {
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+}
+
+strong {
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	color: #fff; 
+}
+
+.review {
+	background-image: url("../images/testimonial_bg.jpg");
+	height: 110px;
+	text-align: center;
+	color: white; 
+	font-size: 30px; 
+	font-style: italic; 
+	padding: 70px 350px 70px 350px; 
+
+}
+
+.signup {
+	background-color: #f9e42e;
+	padding: 50px;
+	text-align: center;
+} 
+
+.link {
+		background-color: #033048;
+		color: #fff;
+		font-weight: 800;
+		font-size: 28px;
+		border-radius: 5px;
+
 }
